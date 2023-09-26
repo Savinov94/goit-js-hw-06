@@ -1,5 +1,5 @@
 const ul = document.querySelector(`#categories`);
-const li = ul.querySelectorAll(`.item`);
+const li = ul.children;
 console.log(`Number of categories: ${li.length}`)
 
 li.forEach((li) => {
